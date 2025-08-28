@@ -10,8 +10,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily:{
-        Poppins: ["var(--font-Poppins)"],
-        Josefin: ["var(--font-Josefin)"],
+        Poppins: ['Poppins', 'sans-serif'],
+        Josefin: ['Josefin Sans', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
