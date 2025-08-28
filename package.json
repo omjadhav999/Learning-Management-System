@@ -7,10 +7,10 @@
   "engines": {
     "node":"22.x"
   },
-"scripts": {
+  "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only server.ts",
-    "start": "ts-node server.ts",    
-    "build": "npm install"
+    "start":"node ./build/server.js",    
+    "build":"tsc"
   },
   "author": "EC & SPM Project",
   "license": "ISC",
@@ -39,8 +39,8 @@
     "nodemailer": "^6.9.4",
     "socket.io": "^4.7.2",
     "stripe": "^13.3.0",
-    "ts-node-dev": "^10.9.1",
-    "typescript": "^5.0.0"
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
   },
   "devDependencies": {
     "@types/ejs": "^3.1.2",
