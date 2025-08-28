@@ -22,7 +22,7 @@ app.use(cookieParser());
 // origin: process.env.ORIGIN,
 app.use(
     cors({
-        origin: ['http://localhost:3000'],
+        origin: ['http://localhost:3000','https://lms-client-nine-tau.vercel.app'],
         credentials: true,
     })
 );
